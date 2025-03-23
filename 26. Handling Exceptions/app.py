@@ -5,8 +5,8 @@ try:
     print(1)
     print(x/0)
     print(2)
-except:
-    print('Error Occured!')
+except ZeroDivisionError:
+    print('Zero is in the divisor')
 print('-'*30)
 
 # Exception with Specific Errors
